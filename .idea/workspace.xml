@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9954f49c-e568-4877-8344-16d0f1058694" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravel/app/Http/Controllers/LessonController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/app/Http/Controllers/LessonController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/resources/views/myWebSite/_partials/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/views/myWebSite/_partials/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/resources/views/myWebSite/_partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/views/myWebSite/_partials/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/resources/views/myWebSite/_partials/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/views/myWebSite/_partials/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/resources/views/myWebSite/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/views/myWebSite/main.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/resources/views/myWebSite/pages/lessons.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/views/myWebSite/pages/lessons.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,16 +22,16 @@
         <entry file="file://$PROJECT_DIR$/laravel/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
-              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+              <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/LessonController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
-              <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#40#55#0#PHP" expanded="true" />
               </folding>
@@ -46,7 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/resources/views/myWebSite/pages/lessons.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -90,8 +83,8 @@
         <option value="$PROJECT_DIR$/laravel/resources/views/myWebSite/_partials/sidebar.blade.php" />
         <option value="$PROJECT_DIR$/laravel/routes/web.php" />
         <option value="$PROJECT_DIR$/laravel/resources/views/myWebSite/_partials/header.blade.php" />
-        <option value="$PROJECT_DIR$/laravel/app/Http/Controllers/LessonController.php" />
         <option value="$PROJECT_DIR$/laravel/resources/views/myWebSite/pages/lessons.blade.php" />
+        <option value="$PROJECT_DIR$/laravel/app/Http/Controllers/LessonController.php" />
       </list>
     </option>
   </component>
@@ -300,7 +293,7 @@
       <workItem from="1584639874551" duration="600000" />
       <workItem from="1584684450059" duration="11072000" />
       <workItem from="1584712119601" duration="871000" />
-      <workItem from="1584713930287" duration="8831000" />
+      <workItem from="1584713930287" duration="9770000" />
     </task>
     <task id="LOCAL-00001" summary="step back">
       <created>1584541973581</created>
@@ -337,14 +330,22 @@
       <option name="project" value="LOCAL" />
       <updated>1584720437650</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="lessons sąrašas užkraunamas tik prisijungus">
+      <created>1584724714834</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584724714834</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29043000" />
+    <option name="totallyTimeSpent" value="29982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="2" width="1905" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16422765" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -399,7 +400,8 @@
     <MESSAGE value="architecture 13-14 skaidres" />
     <MESSAGE value="blade" />
     <MESSAGE value="home rodo visiems, admin panel tik prisiloginus" />
-    <option name="LAST_COMMIT_MESSAGE" value="home rodo visiems, admin panel tik prisiloginus" />
+    <MESSAGE value="lessons sąrašas užkraunamas tik prisijungus" />
+    <option name="LAST_COMMIT_MESSAGE" value="lessons sąrašas užkraunamas tik prisijungus" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/laravel/.env" />
@@ -609,13 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/resources/views/myWebSite/main.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -623,13 +618,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/LessonController.php">
+    <entry file="file://$PROJECT_DIR$/laravel/resources/views/myWebSite/pages/lessons.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
-          <folding>
-            <element signature="e#40#55#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -640,10 +632,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/resources/views/myWebSite/pages/lessons.blade.php">
+    <entry file="file://$PROJECT_DIR$/laravel/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        <state relative-caret-position="425">
+          <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/LessonController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#40#55#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
