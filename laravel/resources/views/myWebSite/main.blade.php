@@ -15,13 +15,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/quill/1.3.6/quill.snow.css"> </head>
 </head>
 <body class="h-100">
-<div class="container-fluid">
+<div class="container">
     <div class="row">
-
+@include('myWebSite/_partials/sidebar')
         <main class="main-content col-lg-10 col-md-9 col-sm-12 p-0 offset-lg-2 offset-md-3">
-
+@include('myWebSite/_partials/header')
             @yield('content')
-
+@include('myWebSite/_partials/footer')
         </main>
     </div>
 </div>
