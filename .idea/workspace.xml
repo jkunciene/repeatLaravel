@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9954f49c-e568-4877-8344-16d0f1058694" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/tmp/twig/29/29b283ca019d81da48462fc3fc3b13df910d3a8f6c33ca9056cd61ce396783ff.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/tmp/twig/34/34665472365fb097360df01c0154a7b3cc629e5de8f4af2fe0ac34cf0bcddc64.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/tmp/twig/43/4382c077f009999efaa33bbb061042c14d73f8a31fed6483de05889552ce1c5d.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/tmp/twig/47/47d3b6b9cbb4f6d6892d689e329b20706b021af811f45a430904a64f89520bbf.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/tmp/twig/60/60a9d4ca2c1733c12a7b80786d3149959d9bcd57d2c4fe93fda147923aa251eb.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/tmp/twig/60/60b058ea5908758ccaa92e2759a4ffe3bcf2d9944d8d1652790ce5044cb2e342.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/tmp/twig/8c/8cb0851f5f7e400c25cc1cfce14ec7223123d7fc254b49b627cec87f9dfbc45b.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/tmp/twig/8f/8f81e342e5d3c432d158b3a321eb4286d01cdc358fab8014dbc01f8d7a5cd41c.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/tmp/twig/9c/9c559364f04cbf51520847d08def978cc1cc80974dd964d09e7593b17c82525b.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/tmp/twig/b8/b86ba96f948986966ffc916dc5b0fa2eed5251fa4a185328d427c135c7cae128.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/tmp/twig/ca/ca4e9f36b3a3abff1fe1c633b12973db3d8d65c6d4864b5e961d49e6f19a1731.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravel/app/Http/Controllers/LessonController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravel/app/Lesson.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/database/migrations/2020_03_17_150803_create_lessons_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/database/migrations/2020_03_18_102247_create_lessons_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/database/migrations/2020_03_17_151845_create_levels_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/app/Lesson.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/app/Lesson.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/database/migrations/2020_03_18_102247_create_lessons_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/database/migrations/2020_03_18_102247_create_lessons_table.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,15 +21,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/laravel/database/migrations/2020_03_20_061924_create_levels_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/app/Level.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/app/Lesson.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/laravel/app/User.php">
+        <entry file="file://$PROJECT_DIR$/laravel/database/migrations/2020_03_18_102247_create_lessons_table.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+              <folding>
+                <element signature="e#7#52#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,6 +70,10 @@
         <option value="$PROJECT_DIR$/laravel/.env" />
         <option value="$PROJECT_DIR$/laravel/database/migrations/2020_03_17_150803_create_lessons_table.php" />
         <option value="$PROJECT_DIR$/laravel/database/migrations/2020_03_17_151845_create_levels_table.php" />
+        <option value="$PROJECT_DIR$/laravel/database/migrations/2020_03_20_061924_create_levels_table.php" />
+        <option value="$PROJECT_DIR$/laravel/app/Level.php" />
+        <option value="$PROJECT_DIR$/laravel/app/Lesson.php" />
+        <option value="$PROJECT_DIR$/laravel/database/migrations/2020_03_18_102247_create_lessons_table.php" />
       </list>
     </option>
   </component>
@@ -182,7 +197,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Laravel_skelbimai" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Laravel_skelbimai" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -214,17 +229,28 @@
       <workItem from="1584447124041" duration="158000" />
       <workItem from="1584456468901" duration="8000" />
       <workItem from="1584456523291" duration="2180000" />
-      <workItem from="1584525540487" duration="2219000" />
+      <workItem from="1584525540487" duration="2274000" />
+      <workItem from="1584639874551" duration="600000" />
+      <workItem from="1584684450059" duration="2458000" />
     </task>
+    <task id="LOCAL-00001" summary="step back">
+      <created>1584541973581</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584541973581</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7614000" />
+    <option name="totallyTimeSpent" value="10727000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="2" width="1909" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36398053" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22174148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -248,6 +274,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="step back" />
+    <option name="LAST_COMMIT_MESSAGE" value="step back" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/laravel/.env.example" />
     <entry file="file://$PROJECT_DIR$/laravel/.env">
@@ -257,48 +287,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/database/migrations/2020_03_17_150803_create_lessons_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="40" selection-start-line="17" selection-start-column="12" selection-end-line="18" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/database/migrations/2020_03_17_150803_create_lessons_table.php" />
+    <entry file="file://$PROJECT_DIR$/laravel/database/migrations/2020_03_17_151845_create_levels_table.php" />
+    <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/Level.php" />
     <entry file="file://$PROJECT_DIR$/laravel/routes/web.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/Lesson.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/database/migrations/2020_03_17_151845_create_levels_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/Level.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/Level.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Level.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Lesson.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/database/migrations/2020_03_20_061924_create_levels_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/database/migrations/2020_03_18_102247_create_lessons_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="e#7#52#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
