@@ -20,3 +20,7 @@ Route::get('/about/', 'HomeController@about');
 
 Auth::routes();
 
+Route::get('/logout', 'HomeController@logout');
+
+
+Route::get('/lessons', 'LessonController@showLessons');

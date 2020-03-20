@@ -1,46 +1,41 @@
-<header class="site-navbar container py-0 " role="banner">
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/lessons">Lessons</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <!-- <div class="container"> -->
-    <div class="row align-items-center">
-
-        <div class="col-6 col-xl-2">
-            <h1 class="mb-0 site-logo"><a href="/" class="text-white mb-0">Skelbimai</a></h1>
-        </div>
-        <div class="col-12 col-md-10 d-none d-xl-block">
-            <nav class="site-navigation position-relative text-right" role="navigation">
-
-                <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
-                    <li class="active"><a href="/">Pagrindinis</a></li>
-                    <li><a href="/lessons">Pamokos</a></li>
-                    <li class="has-children">
-                        <a href="">Apie</a>
-                        <ul class="dropdown">
-                            <li><a href="/about">Apie norą dalintis</a></li>
-                        </ul>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">Apie</a>
+                </li>
+                @guest
+                    <li class="nav-item">
+                        <a class="nav-link" href="/login">Log In</a>
                     </li>
-                    <li class="mr-5"><a href="/contact">Kontaktai</a></li>
-                    @auth
-                        <li class="cta"><a href="/logout"><span class="bg-primary text-white rounded">Log Out</span></a>
-                        </li>
-                    @endauth
+                    <li class="nav-item">
+                        <a class="nav-link" href="/register">Register</a>
+                    </li>
+                @endguest
 
-                    @guest
-                        <li class="cta"><a href="/login"><span class="bg-primary text-white rounded">Log In</span></a>
-                        </li>
+                @auth
+                    <li class="nav-item">
+                        <a class="nav-link" href="/logout">Log Out</a>
+                    </li>
+                @endauth
 
-                        <li><a href="/register" class="cta"><span class="bg-primary text-white rounded">Register</span></a>
-                        </li>
-                    @endguest
-                </ul>
-            </nav>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
         </div>
-
-
-        <div class="d-inline-block d-xl-none ml-auto py-3 col-6 text-right" style="position: relative; top: 3px;">
-            <a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a>
-        </div>
-
-    </div>
-    <!-- </div> -->
+    </nav>
 
 </header>
