@@ -24,3 +24,7 @@ Route::get('/logout', 'HomeController@logout');
 
 
 Route::get('/lessons', 'LessonController@showLessons');
+
+Route::get('/lesson_form', 'LessonController@showLessonForm');
+
+Route::post('/lesson_store', 'LessonController@addNewLesson');

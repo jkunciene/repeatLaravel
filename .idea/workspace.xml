@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9954f49c-e568-4877-8344-16d0f1058694" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/db/tmp/twig/04/044cc697f98ecb078611c16b6f7dbf83d4eca55d6eddb60398088ecd3d4d0b96.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/tmp/twig/0d/0db2b20ba0e578e60ef0a42bc5389db6aa21387eb5d4f0873ddaf71acfb473b9.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/tmp/twig/0f/0f48f44a7637b6d2c1bb2e1f040e8bab6f08c4e5feab2961276ab93ed323b98e.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/tmp/twig/2d/2d018d98a0973c1acd6d809b6f0f826d98ff000df7f4949f32d4b378f4a646b0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/tmp/twig/37/37da65319e55c96ee3c6e4e9bd63adc46473fedb5b39cd0f013f5a1e2f02f1a2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/tmp/twig/3f/3fb2f556ef40d1da43cae7a1540eeb92061fafbd66ccae2c951781185e391f67.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/tmp/twig/58/58b2e171bae433f84491e688846ca35bc7ba06f7b660cb86281203ad51ff7520.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/tmp/twig/78/783d7efbf762bc9765e690c3400fdb2d1defb726b2ab654e2f9ec46a42b7f2d2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/tmp/twig/82/82108e6c28e7f2d767e7ef7aabaae7b03636b8b07d2108d85b02ae3956fb0ae8.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/tmp/twig/b2/b2b775e129eec7d5571689829254356ea856197ae57f3d7645fe145f1c893534.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/tmp/twig/b2/b2f019f343162c440e77f348f6609bc21c51cb3f36351d450209b961ecbde146.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/tmp/twig/bc/bc4457e7a8734d8db96e2c8e57547e79dc90dfc1896cb0a023628d42f2206a2f.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/tmp/twig/c8/c86836e71d454228538a367f6cd323f6966efa438b1d3139f4b91c77a29b5734.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/tmp/twig/d6/d62ec0b5f6fef1963d59db5ede45ad0745dcce6baab1e3e1ad1bdb4b14187984.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/tmp/twig/ed/edabac781563a900389a6202457674d78ff0d76b4199722f39f68924b9aa8c34.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel/laravel_db_export200322.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel/resources/img/remembers.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravel/app/Http/Controllers/LessonController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/app/Http/Controllers/LessonController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/resources/views/myWebSite/pages/lesson_form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/views/myWebSite/pages/lesson_form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
+            <state relative-caret-position="442">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -30,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/LessonController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="765">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="e#40#55#0#PHP" expanded="true" />
               </folding>
@@ -40,10 +60,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/resources/views/myWebSite/pages/lesson_form.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+              <folding>
+                <element signature="e#107#157#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/resources/views/myWebSite/pages/lessons.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+            <state relative-caret-position="306">
+              <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -81,10 +113,11 @@
         <option value="$PROJECT_DIR$/laravel/resources/views/myWebSite/_partials/footer.blade.php" />
         <option value="$PROJECT_DIR$/laravel/resources/views/myWebSite/main.blade.php" />
         <option value="$PROJECT_DIR$/laravel/resources/views/myWebSite/_partials/sidebar.blade.php" />
-        <option value="$PROJECT_DIR$/laravel/routes/web.php" />
         <option value="$PROJECT_DIR$/laravel/resources/views/myWebSite/_partials/header.blade.php" />
         <option value="$PROJECT_DIR$/laravel/resources/views/myWebSite/pages/lessons.blade.php" />
+        <option value="$PROJECT_DIR$/laravel/resources/views/myWebSite/pages/lesson_form.blade.php" />
         <option value="$PROJECT_DIR$/laravel/app/Http/Controllers/LessonController.php" />
+        <option value="$PROJECT_DIR$/laravel/routes/web.php" />
       </list>
     </option>
   </component>
@@ -128,7 +161,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="2" />
-    <option name="width" value="1905" />
+    <option name="width" value="1281" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -139,7 +172,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,6 +238,13 @@
               <item name="repeatLaravel" type="462c0819:PsiDirectoryNode" />
               <item name="laravel" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="repeatLaravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="repeatLaravel" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -252,6 +291,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,7 +333,8 @@
       <workItem from="1584639874551" duration="600000" />
       <workItem from="1584684450059" duration="11072000" />
       <workItem from="1584712119601" duration="871000" />
-      <workItem from="1584713930287" duration="9770000" />
+      <workItem from="1584713930287" duration="10236000" />
+      <workItem from="1584870876079" duration="4634000" />
     </task>
     <task id="LOCAL-00001" summary="step back">
       <created>1584541973581</created>
@@ -337,17 +378,23 @@
       <option name="project" value="LOCAL" />
       <updated>1584724714834</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary=" 15 skaidrė">
+      <created>1584725760404</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1584725760404</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29982000" />
+    <option name="totallyTimeSpent" value="35082000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="2" width="1905" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="2" width="1281" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16422765" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25061426" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -401,10 +448,10 @@
     <MESSAGE value="blade" />
     <MESSAGE value="home rodo visiems, admin panel tik prisiloginus" />
     <MESSAGE value="lessons sąrašas užkraunamas tik prisijungus" />
-    <option name="LAST_COMMIT_MESSAGE" value="lessons sąrašas užkraunamas tik prisijungus" />
+    <MESSAGE value=" 15 skaidrė" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 15 skaidrė" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/laravel/.env" />
     <entry file="file://$PROJECT_DIR$/laravel/database/migrations/2020_03_17_150803_create_lessons_table.php" />
     <entry file="file://$PROJECT_DIR$/laravel/database/migrations/2020_03_17_151845_create_levels_table.php" />
     <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/Level.php" />
@@ -462,9 +509,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/assets/footer.php" />
     <entry file="file://$PROJECT_DIR$/laravel/assets/index.php" />
-    <entry file="file://$PROJECT_DIR$/laravel/resources/views/myWebSite/pages/lesson_form.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/resources/views/myWebSite/pages/levels_management.blade.php" />
     <entry file="file://$PROJECT_DIR$/laravel/resources/views/layouts/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -618,13 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/resources/views/myWebSite/pages/lessons.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/resources/views/myWebSite/_partials/header.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -632,17 +669,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/resources/views/myWebSite/pages/lessons.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/resources/views/myWebSite/pages/lesson_form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+          <folding>
+            <element signature="e#107#157#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/LessonController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="765">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="e#40#55#0#PHP" expanded="true" />
           </folding>
