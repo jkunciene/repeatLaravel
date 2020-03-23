@@ -9,18 +9,12 @@ use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
 {
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
-
-
-    /**
-     * Show the application dashboard.
-     *
-     * @return \Illuminate\Contracts\Support\Renderable
-     */
+    public function __construct()
+    {
+        $this->middleware('auth', ['only' => [
+            'searchAction'
+        ]]);
+    }
     public function index()
     {
         return view('myWebSite.pages.home');

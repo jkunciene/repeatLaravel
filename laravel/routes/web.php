@@ -12,20 +12,23 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-
+Auth::routes();
+//HOMECONTROLLER
 Route::get('/', 'HomeController@index');
-
 Route::get('/about/', 'HomeController@about');
 Route::get('/search', 'HomeController@searchAction');
-
-Auth::routes();
-
 Route::get('/logout', 'HomeController@logout');
 
-
+//LESSONCONTROLLER
+//GET
 Route::get('/lessons', 'LessonController@showLessons');
-
 Route::get('/lesson_form', 'LessonController@showLessonForm');
-
+//POST
 Route::post('/lesson_store', 'LessonController@addNewLesson');
+
+//LEVELCONTROLLER
+//GET
+Route::get('/levels', 'LevelController@showLevels');
+Route::get('/lesson_form', 'LevelController@showLevelForm');
+//POST
+Route::post('/level_store', 'LevelController@addNewLevel');
