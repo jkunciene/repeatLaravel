@@ -32,7 +32,9 @@
                                 <td>{{$lesson->theme}}</td>
                                 <td>{{$lesson->description}}</td>
                                 <td><a href="{{$lesson->file}}" target="_blank">Skaidrės</a></td>
+
                                 <td><a href="/lessons_update/{{$lesson->id}}" class="btn btn-warning">Koreguoti</a></td>
+
                                 <td><a href="/lessons_delete/{{$lesson->id}}" class="btn btn-danger">Trinti</a></td>
                         </tr>
                         @endforeach

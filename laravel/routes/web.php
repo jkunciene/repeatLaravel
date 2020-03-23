@@ -29,6 +29,7 @@ Route::get('/lessons_delete/{lesson}', 'LessonController@lessonDelete');
 Route::get('/lessonsByLevel/{level}', 'LessonController@showLessonsByLevel');
 //POST
 Route::post('/lesson_store', 'LessonController@addNewLesson');
+
 Route::post('/lessonDataUpdate/{lesson}', 'LessonController@updateLesson');
 
 //LEVELCONTROLLER
