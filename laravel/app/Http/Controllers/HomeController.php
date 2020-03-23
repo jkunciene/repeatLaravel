@@ -29,6 +29,13 @@ class HomeController extends Controller
     {
         return view('myWebSite.pages.about');
     }
+    public function searchAction(Request $request){
+
+        $lessons = Lesson::where('theme', 'LIKE', '%'.request('search').'%')
+                        ->orWhere('description', 'LIKE', '%'.request('search').'%')
+                        ->get();
+        return view ('myWebSite.pages.search', compact('lessons'));
+    }
     public function logout(){
         Auth::logout();
         return redirect('/');
