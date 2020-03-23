@@ -18,16 +18,19 @@ class LessonController extends Controller
             'addNewLesson'
         ]]);
     }
+
     public function showLessons(){
         $lessons = Lesson::all();
 
         return view ('myWebSite.pages.lessons', compact('lessons'));
     }
+
     public function showLessonForm(){
         $levels = Level::all();
 
         return view ('myWebSite.pages.lesson_form', compact('levels'));
     }
+
     public function addNewLesson(Request $request){
         $validateDate = $request->validate([
             'lygis' => 'required',
@@ -48,6 +51,13 @@ class LessonController extends Controller
     public function lessonDelete(Lesson $lesson){
         $lesson->delete();
         return redirect ('/lessons');
+    }
+
+    public function showLessonsByLevel(Request $request){
+
+        $lessons = Lesson::with('level')->where('level', $request->level)->get();
+
+        return view('myWebSite.pages.lessons', compact('lessons'));
     }
 
 }

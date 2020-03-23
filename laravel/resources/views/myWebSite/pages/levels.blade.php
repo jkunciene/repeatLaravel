@@ -30,7 +30,9 @@
                             @foreach($levels as $level)
                                 <td>{{$level->name}}</td>
                                 <td>{{$level->about}}</td>
-                                <td><a href="{{$level->id}}" target="_blank">Pamokos</a></td>
+
+                                <td><a href="/lessonsByLevel/{{$level->id}}">Pamokos</a></td>
+
                                 <td><a href="/level_delete/{{$level->id}}" class="btn btn-danger">Trinti</a></td>
                         </tr>
                         @endforeach
