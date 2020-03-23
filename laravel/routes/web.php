@@ -18,15 +18,18 @@ Route::get('/', 'HomeController@index');
 Route::get('/about/', 'HomeController@about');
 Route::get('/search', 'HomeController@searchAction');
 Route::get('/logout', 'HomeController@logout');
+Route::get('/errors', 'HomeController@showError');
 
 //LESSONCONTROLLER
 //GET
 Route::get('/lessons', 'LessonController@showLessons');
 Route::get('/lesson_form', 'LessonController@showLessonForm');
+Route::get('/lessons_update/{lesson}', 'LessonController@manageLessonForm');
 Route::get('/lessons_delete/{lesson}', 'LessonController@lessonDelete');
 Route::get('/lessonsByLevel/{level}', 'LessonController@showLessonsByLevel');
 //POST
 Route::post('/lesson_store', 'LessonController@addNewLesson');
+Route::post('/lessonDataUpdate/{lesson}', 'LessonController@updateLesson');
 
 //LEVELCONTROLLER
 //GET

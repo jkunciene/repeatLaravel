@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
+
 use App\Lesson;
 use App\Level;
 use Illuminate\Http\Request;
+
 
 class LevelController extends Controller
 {
@@ -12,10 +14,7 @@ class LevelController extends Controller
 
     public function __construct()
     {
-        $this->middleware('auth', ['only' => [
-            'showLevels',
-            'showLevelForm'
-        ]]);
+        $this->middleware('auth');
     }
     public function showLevels(){
         $levels = Level::all();

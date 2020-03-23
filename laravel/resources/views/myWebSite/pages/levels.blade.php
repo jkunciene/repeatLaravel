@@ -12,7 +12,7 @@
                     </div>
                     <div class="row form-group">
                         <div class="col-md-12">
-                            <a href="/lesson_form" class="btn btn-primary py-2 px-4 text-white">Patalpinti naują lygį</a>
+                            <a href="/level_form" class="btn btn-primary py-2 px-4 text-white">Patalpinti naują lygį</a>
                         </div>
                     </div>
 

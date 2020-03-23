@@ -30,6 +30,12 @@ class HomeController extends Controller
                         ->get();
         return view ('myWebSite.pages.search', compact('lessons'));
     }
+
+    public function showError()
+    {
+        return view('myWebSite.pages.errors');
+    }
+
     public function logout(){
         Auth::logout();
         return redirect('/');
