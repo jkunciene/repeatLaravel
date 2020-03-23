@@ -23,12 +23,14 @@ Route::get('/logout', 'HomeController@logout');
 //GET
 Route::get('/lessons', 'LessonController@showLessons');
 Route::get('/lesson_form', 'LessonController@showLessonForm');
+Route::get('/lessons_delete/{lesson}', 'LessonController@lessonDelete');
 //POST
 Route::post('/lesson_store', 'LessonController@addNewLesson');
 
 //LEVELCONTROLLER
 //GET
 Route::get('/levels', 'LevelController@showLevels');
-Route::get('/lesson_form', 'LevelController@showLevelForm');
+Route::get('/level_form', 'LevelController@showLevelForm');
+Route::get('/level_delete/{level}', 'LevelController@levelDelete');
 //POST
 Route::post('/level_store', 'LevelController@addNewLevel');

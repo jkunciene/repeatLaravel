@@ -44,4 +44,10 @@ class LessonController extends Controller
         ]);
         return redirect('/lessons');
     }
+
+    public function lessonDelete(Lesson $lesson){
+        $lesson->delete();
+        return redirect ('/lessons');
+    }
+
 }

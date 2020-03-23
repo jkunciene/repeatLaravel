@@ -31,7 +31,7 @@
                                 <td>{{$level->name}}</td>
                                 <td>{{$level->about}}</td>
                                 <td><a href="{{$level->id}}" target="_blank">Pamokos</a></td>
-                                <td><a href="{{$level->id}}" target="_blank">Trinti</a></td>
+                                <td><a href="/level_delete/{{$level->id}}" class="btn btn-danger">Trinti</a></td>
                         </tr>
                         @endforeach
                         </tbody>

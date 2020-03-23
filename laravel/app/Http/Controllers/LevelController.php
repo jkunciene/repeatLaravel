@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Lesson;
 use App\Level;
 use Illuminate\Http\Request;
 
@@ -35,5 +36,10 @@ class LevelController extends Controller
             'about'=> request('aprasymas')
         ]);
         return redirect('/levels');
+    }
+
+    public function levelDelete(Level $level){
+        $level->delete();
+        return redirect ('/levels');
     }
 }

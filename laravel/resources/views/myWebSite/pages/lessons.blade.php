@@ -22,6 +22,7 @@
                             <th scope="col">Pamokos pavadinimas</th>
                             <th scope="col">Pamokos aprašymas</th>
                             <th scope="col">Nuoroda į skaidres</th>
+                            <th scope="col">Trinti</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -30,6 +31,7 @@
                                 <td>{{$lesson->theme}}</td>
                                 <td>{{$lesson->description}}</td>
                                 <td><a href="{{$lesson->file}}" target="_blank">Skaidrės</a></td>
+                                <td><a href="/lessons_delete/{{$lesson->id}}" class="btn btn-danger">Trinti</a></td>
                         </tr>
                         @endforeach
                         </tbody>
