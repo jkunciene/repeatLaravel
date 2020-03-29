@@ -5,9 +5,8 @@ namespace App\Http\Controllers;
 use App\Lesson;
 use App\Level;
 
-use Illuminate\Auth\Access\Gate;
+use Gate;
 use Illuminate\Http\Request;
-
 use Illuminate\Support\Facades\Auth;
 
 class LessonController extends Controller
@@ -41,13 +40,18 @@ class LessonController extends Controller
             'theme' => request('pavadinimas'),
             'description' => request('aprasymas'),
             'file' => request('skaidres'),
-            'level' => request('lygis')
+            'level' => request('lygis'),
+            'userid' => Auth::id()
         ]);
         return redirect('/lessons');
     }
 
     public function manageLessonForm(Lesson $lesson){
+
+        if (Gate::allows('update-post', $lesson)) {
             return view('myWebSite.pages.lesson_update', compact('lesson'));
+        }
+        return redirect('/errors');
     }
 
     public function updateLesson(Lesson $lesson, Request $request){
@@ -62,14 +66,26 @@ class LessonController extends Controller
             'description' => request('aprasymas'),
             'file' => request('skaidres'),
             'level' => request('lygis')
+
         ]);
         return redirect('/lessons');
 
     }
     public function lessonDelete(Lesson $lesson){
+        if (Gate::allows('update-post', $lesson)) {
             $lesson->delete();
             return redirect ('/lessons');
+        }
+        return redirect('/errors');
+
     }
+    public function errors()
+    {
+        return view('myWebSite.pages.errors');
+    }
+
+
+
 
     public function showLessonsByLevel(Request $request){
 

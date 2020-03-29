@@ -19,6 +19,7 @@ class CreateLessonsTable extends Migration
             $table->longtext('description');
             $table->string('file')->nullable();
             $table->integer('level')->nullable();
+            $table->integer('userid');
             $table->timestamps();
         });
     }
