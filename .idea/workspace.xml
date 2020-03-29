@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9954f49c-e568-4877-8344-16d0f1058694" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/laravel/resources/views/myWebSite/pages/errors.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/app/Http/Controllers/LessonController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/app/Http/Controllers/LessonController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/app/Lesson.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/app/Lesson.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/database/migrations/2020_03_18_102247_create_lessons_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/database/migrations/2020_03_18_102247_create_lessons_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/resources/views/myWebSite/pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/views/myWebSite/pages/home.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="9954f49c-e568-4877-8344-16d0f1058694" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -349,7 +341,7 @@
       <workItem from="1584713930287" duration="10236000" />
       <workItem from="1584870876079" duration="5289000" />
       <workItem from="1584950172608" duration="20425000" />
-      <workItem from="1585488701350" duration="2729000" />
+      <workItem from="1585488701350" duration="2805000" />
     </task>
     <task id="LOCAL-00001" summary="step back">
       <created>1584541973581</created>
@@ -449,11 +441,18 @@
       <option name="project" value="LOCAL" />
       <updated>1584979500146</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="gate 26-27 skadrės">
+      <created>1585491905228</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1585491905228</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58891000" />
+    <option name="totallyTimeSpent" value="58967000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="1" width="1289" height="1040" extended-state="0" />
@@ -520,7 +519,8 @@
     <MESSAGE value="show lessons by level, 16-23 skaidres" />
     <MESSAGE value=" Pagination + Update" />
     <MESSAGE value="26skaidrė" />
-    <option name="LAST_COMMIT_MESSAGE" value="26skaidrė" />
+    <MESSAGE value="gate 26-27 skadrės" />
+    <option name="LAST_COMMIT_MESSAGE" value="gate 26-27 skadrės" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/laravel/database/migrations/2020_03_17_150803_create_lessons_table.php" />
